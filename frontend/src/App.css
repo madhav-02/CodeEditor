@@ -88,5 +88,59 @@ footer a{
 }
 
 .mainLabel{
-  color: #eee;
+  color: #ae4848;
+}
+
+.mainWrapper{
+  display: grid;
+  grid-template-columns: 230px 1fr;
+  height: 100vh;
+}
+
+.aside{
+  background: #1e0442;
+  padding: 17px;
+  color: rgb(255, 255, 255);
+  display: flex;
+  flex-direction: column;
+}
+.asideInner{
+  flex:1;
+}
+
+.clientsList{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.client{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.userName{
+  margin-top: 10px;
+}
+
+.logo{
+  border-bottom: 2px solid #4242;
+  padding-bottom: 10px;
+}
+
+.logoImage{
+  height: 60px;
+}
+
+.leaveBtn{
+  margin-top: 20px;
+  background: rgb(23, 191, 138);
+  width: 100%;
+}
+
+.leaveBtn:hover{
+  background: rgb(34, 144, 109);;
 }
