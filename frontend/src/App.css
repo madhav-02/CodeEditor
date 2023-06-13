@@ -55,6 +55,7 @@ footer a{
   font-size: 15px;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  font-weight: bold;
 }
 
 .joinBtn{
@@ -143,4 +144,11 @@ footer a{
 
 .leaveBtn:hover{
   background: rgb(34, 144, 109);;
+}
+
+.CodeMirror{
+  min-height: calc(100vh - 20px);
+  font-size: 20px;
+  line-height: 1.6;
+  padding-top: 20px;
 }
